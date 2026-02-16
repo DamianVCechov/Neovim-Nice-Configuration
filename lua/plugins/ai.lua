@@ -7,7 +7,7 @@ return {
             { "<leader>ac", ":Gen Chat<CR>", mode = "n", desc = "AI Chat" },
             { "<leader>ae", ":Gen Explain_Code<CR>", mode = "v", desc = "AI Explain" },
             { "<leader>ag", ":Gen Generate<CR>", mode = { "n", "v" }, desc = "AI Generate" },
-            { "<leader>ag", ":Gen Refactor_Clean<CR>", mode = { "n", "v" }, desc = "AI Refactor" },
+            { "<leader>ar", ":Gen Refactor_Clean<CR>", mode = { "n", "v" }, desc = "AI Refactor" },
             { "<leader>am", function() require("gen").select_model() end, mode = "n", desc = "AI Select Model" },
         },
         config = function()
