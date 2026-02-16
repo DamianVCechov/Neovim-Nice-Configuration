@@ -25,4 +25,5 @@ Mezerník + a + a	Otevře hlavní menu AI funkcí
 Mezerník + a + c	Otevře chat s AI
 Mezerník + a + e	Vysvětlí označený kód (Explain)
 Mezerník + a + g	Vygeneruje kód podle zadání
+Mezerník + a + m    Zobrazí výzvu ke změně modelu AI
 ```
