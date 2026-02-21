@@ -14,7 +14,7 @@ return {
             local gen = require("gen")
             
             gen.setup({
-                model = "qwen3-coder-next", 
+                model = "gemma3:1b-it-fp16", 
                 host = "localhost",
                 port = "11434",
                 display_mode = "float", -- nebo "split" či "horizontal-split"

@@ -18,7 +18,7 @@ opt.expandtab = true
 opt.tabstop = 4
 opt.softtabstop = 4
 opt.shiftwidth = 4
-opt.textwidth = 120
+opt.textwidth = 0
 
 vim.cmd("filetype plugin indent on")
 
